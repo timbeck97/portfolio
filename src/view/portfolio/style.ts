@@ -62,7 +62,16 @@ export const Imagem=styled.img`
     height:200px;
     width:200px;
     border-radius:100%;
-    border: 5px solid #AFD0D6;
+    border: 3px solid #AFD0D6;
+    box-shadow:
+    0 0 30px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 5px #0fa,
+    0 0 5px #0fa,
+    0 0 5px #0fa,
+    0 0 5px #0fa,
+    0 0 5px #0fa;
 `
 
 export const Title=styled.h1`
@@ -78,4 +87,9 @@ export const Subtitle=styled.h2`
     line-height: 1.6;
     overflow: hidden;
    
+`
+export const Line=styled.div`
+    height:1px;
+    width:100%;
+    background:#37FF62;
 `

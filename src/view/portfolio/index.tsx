@@ -1,5 +1,5 @@
 
-import { Container, Imagem, Title, Subtitle, Header,ContainerInfo,ContainerInfoColumn, Card, CardTitle} from "./style"
+import { Container, Imagem, Title, Subtitle, Header,ContainerInfo,ContainerInfoColumn, Card, CardTitle, Line} from "./style"
 import React from 'react'
 import {useState} from 'react'
 
@@ -32,7 +32,10 @@ export const Portfolio = () =>{
                     </Subtitle>
                 </ContainerInfoColumn>
             </ContainerInfo>
+           
+           
             <ContainerInfo >
+                <Line/>
                 <Card >
                     <CardTitle>
                         Informações
@@ -42,6 +45,7 @@ export const Portfolio = () =>{
                     </Subtitle>
                     
                 </Card>
+                <Line/>
                 <Card >
                     <CardTitle>
                         Skills
