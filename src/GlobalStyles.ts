@@ -22,6 +22,7 @@ export default createGlobalStyle`
     display:flex;
     flex-direction:column;
     align-items:center;
+    width:100%;
   }
   ul {
     list-style: none;
